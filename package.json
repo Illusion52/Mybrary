@@ -7,14 +7,22 @@
     "start": "node server.js",
     "devStart": "nodemon server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Illusion52/Mybrary.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Illusion52/Mybrary/issues"
+  },
+  "homepage": "https://github.com/Illusion52/Mybrary#readme",
   "dependencies": {
     "ejs": "^3.1.8",
     "express": "^4.18.1",
     "express-ejs-layouts": "^2.5.1",
-    "mongoose": "^6.6.2",
-    "moongoose": "^0.0.5"
+    "mongoose": "^6.6.5"
   },
   "devDependencies": {
     "dotenv": "^16.0.3",
